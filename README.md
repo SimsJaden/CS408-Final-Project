@@ -1,6 +1,6 @@
-# Web Dev Starter Code
+# CS 408 Final Project Specifications
 
-## Project Spec
+## Project Specs
 
 ### General Theme
 The Factorio Recipe Builder is a specialized web application designed for gaming enthusiasts who want to maximize efficiency in Factorio. The theme of this project revolves around creating a recipe repository and calculation tool specifically for Factorio players. By blending the elements of a traditional database with dynamic calculation tools, this application will act as both a utility for optimizing their in-game factory designs. The website will also incorporate a intuitive, user-friendly interface where players can manage their crafting recipes, production rates, and required resource allocation.
