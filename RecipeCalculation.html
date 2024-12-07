@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="calculation-page">
+    <header class="header">
+        <div class="logo">
+            Factorio Recipe Calculator
+        </div>
+        <nav class="navbar">
+            <a href="Main.html">Home</a>
+            <a href="RateCalculation.html" class="active">Rate Calculator</a>
+            <a href="Contact.html">Contact</a>
+        </nav>
+        <div class="social-icons">
+            <a href="#"><img src="img/TwitterIcon.png" alt="Twitter"></a>
+            <a href="#"><img src="img/FacebookIcon.jpg" alt="Facebook"></a>
+            <a href="#"><img src="img/RedditIcon.jpeg" alt="Reddit"></a>
+        </div>
+    </header>
+
+    <div id="controls" class="panel">
+        <button id="show-base">Show Base Recipes</button>
+        <button id="show-custom">Show Custom Recipes</button>
+        <button id="show-all">Show All Recipes</button>
+        <br><br>
+
+        <h3>Create a Custom Recipe</h3>
+        <label for="recipe-name">Name:</label>
+        <input id="recipe-name" type="text">
+        <label for="recipe-materials">Materials (e.g., "iron plates: 12, steel: 4"):</label>
+        <textarea id="recipe-materials" rows="5" cols="30"></textarea>
+        <button id="create-recipe">Create Recipe</button>
+    </div>
+
+    <div class="panel recipe-panel">
+        <div id="recipe-container">
+            <!-- Dynamically generated table content will appear here -->
+        </div>
+    </div>
+
+    <script src="js/main.js" type="module"></script>
+
+    <footer class="footer">
+        <div class="footer-left">
+            <span>Factorio Recipe Calculator</span>
+            <p>Custom Recipe Website Created By Jaden Sims.</p>
+            <p>&copy; 2024 Factorio Recipe Calculator. All rights reserved.</p>
+        </div>
+        <div class="footer-social">
+            <h4>Social</h4>
+            <a href="https://x.com/factoriogame" target="_blank" class="social-icon">
+                <img src="img/TwitterIcon.png" alt="Twitter" />
+            </a>
+            <a href="https://www.facebook.com/Factorio/" target="_blank" class="social-icon">
+                <img src="img/FacebookIcon.jpg" alt="Facebook" />
+            </a>
+            <a href="https://www.reddit.com/r/factorio/" target="_blank" class="social-icon">
+                <img src="img/RedditIcon.jpeg" alt="Reddit" />
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

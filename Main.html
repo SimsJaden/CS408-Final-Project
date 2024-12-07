@@ -3,104 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main Page</title>
+    <title>Factorio Recipe Calculator</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Header -->
     <header class="header">
         <div class="logo">
-            <span>@</span> Factorio Recipe Calculator
+            Factorio Recipe Calculator
         </div>
         <nav class="navbar">
             <a href="Main.html" class="active">Home</a>
-            <a href="Recipe.html">Your Recipes</a>
-            <a href="Trending.html">Common Recipes</a>
-            <a href="RateCalculation.html">Rate Calculator</a>
-            <a href="Author.html">Authors</a>
+            <a href="RecipeCalculation.html">Rate Calculator</a>
             <a href="Contact.html">Contact</a>
         </nav>
         <div class="social-icons">
-            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
-            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
-            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
-            <a href="#"><img src="youtube-icon.png" alt="YouTube"></a>
+            <a href="#"><img src="img/TwitterIcon.png" alt="Twitter"></a>
+            <a href="#"><img src="img/FacebookIcon.jpg" alt="Facebook"></a>
+            <a href="#"><img src="img/RedditIcon.jpeg" alt="Reddit"></a>
         </div>
     </header>
 
-    <main class="main-content">
-        <section class="hero">
-            <h1>Factorio Recipe Calculator</h1>
-            <p>Looking for the latest Updates?</p>
-            <a href="https://www.factorio.com" target="OfficalPage"></a>
-            <button class="btn">Read Updates</button>
-        </section>
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Factorio Recipe Calculator</h1>
+        <p>Looking for the latest updates on Factorio?</p>
+        <a href="https://www.factorio.com" target="_blank" class="btn">Read Updates</a>
 
-        <section class="sections">
-            <div class="section">
-                <h3>Trending Recipes</h3>
-                <p>Anna Maria Lopez - Mar 15, 2022 • 5 min read</p>
-                <p>Suspendisse potenti. Sed porta sapien ut sagittis...</p>
-            </div>
-            <div class="section">
-                <h3>Your Recipes</h3>
-                <p>Bob Jones - Feb 18, 2022 • 5 min read</p>
-                <p>Lorem ipsum dolor sit amet, gravida laoreet lectus...</p>
-            </div>
-            <div class="section">
-                <h3>Starter and Common Recipes</h3>
-                <p>John Alvarez - Jan 10, 2022 • 5 min read</p>
-                <p>Praesent fermentum et urna sapien tristique...</p>
-            </div>
-        </section>
+    </section>
 
-        <section class="latest-posts">
-            <h2>Latest Posts</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <!-- Title Panel Section -->
+    <div class="title-panel panel">
+        <h2 class="panel-title">Factorio: Space Age - Wiki</h2>
+        <p>Discover new challenges and advanced techniques for Factorio!</p>
+        <a href="https://wiki.factorio.com" target="Factorio Wiki" class="small-green-btn">Read More</a>
+    </div>
 
+    <!-- Sections -->
+    <main>
+        <!-- Latest Posts -->
+        <section class="latest-posts panel">
+            <h2 class="panel-title">Latest Posts</h2>
             <div class="latest-grid">
-                <div class="latest-item featured">
-                    <h3>Space-Age Blueprints</h3>
-                    <p>Anna Maria Lopez - Mar 15, 2022 • 10 min read</p>
+                <div class="latest-item panel satellite">
+                    <div class="text-content">
+                        <h3 class="panel-title">Space-Age Blueprints</h3>
+                        <p>Find Some Useful Blueprints For Space Age here!</p>
+                    </div>
+                    <a href="https://www.factorio.school" target="Blueprints for Factorio" class="small-green-btn">Read More</a>
                 </div>
-                <div class="latest-item">
-                    <h3>Factorio 2.0 Update Information</h3>
-                    <p>Carol Francis - Jan 11, 2022 • 2 min read</p>
+                <div class="latest-item panel update">
+                    <div class="text-content">
+                        <h3 class="panel-title">Factorio 2.0 Update Information</h3>
+                        <p>Read The Latest Information On Space Age and Factorio 2.0!</p>
+                    </div>
+                    <a href="https://www.factorio.com/space-age/content" target="Space Age and 2.0 information" class="small-green-btn">Read More</a>
                 </div>
-                <div class="latest-item">
-                    <h3>Prior Factorio Updates and News</h3>
-                    <p>Anna Maria Lopez - Mar 8, 2022 • 8 min read</p>
+                
+                <div class="latest-item panel news">
+                    <div class="text-content">
+                        <h3 class="panel-title">Learn more Information about Factorio</h3>
+                        <p>Learn Everything About The Game Here!</p>
+                    </div>
+                    <a href="https://www.factorio.com/game/content" target="More information on base Factorio" class="small-green-btn">Read More</a>
                 </div>
-            </div>
-            <aside class="trending">
-                <h3>Trending</h3>
-                <ul>
-                    <li>Starter Recipes and Blueprints</li>
-                    <li>Start to Midgame Recipes</li>
-                    <li>End to Endgame Blueprints</li>
-                </ul>
-            </aside>
+        </section>
+        <!-- Horizontal Panels -->
+        <section class="sections-horizontal">
+            <a href="https://factorioprints.com/top" class="panel">Trending Blueprints</a>
+            <a href="RateCalculation.html" class="panel">Your Recipes</a>
+            <a href="https://www.factorio.com/game/screenshots" class="panel">Community Content</a>
         </section>
     </main>
 
-    <footer class="footer">
-        <div class="footer-left">
-            <span>Factorio Recipe Calculator</span>
-            <p>Donec ac nisi nisi. Vestibulum tincidunt luctus.</p>
-            <p>&copy; 2024 Factorio Recipe Calculator. All rights reserved.</p>
-        </div>
-        <div class="footer-tags">
-            <h4>Tags</h4>
-            <ul>
-                <li>Blueprints</li>
-            </ul>
-        </div>
-        <div class="footer-social">
-            <h4>Social</h4>
-            <a href="#">Twitter</a>
-            <a href="#">Facebook</a>
-            <a href="#">Instagram</a>
-            <a href="#">YouTube</a>
-        </div>
-    </footer>
+    <!-- Footer -->
+<footer class="footer">
+    <div class="footer-left">
+        <span>Factorio Recipe Calculator</span>
+        <p>Custom Recipe Website Created By Jaden Sims.</p>
+        <p>&copy; 2024 Factorio Recipe Calculator. All rights reserved.</p>
+    </div>
+    <div class="footer-social">
+        <h4>Social</h4>
+        <a href="https://x.com/factoriogame" target="_blank" class="social-icon">
+            <img src="img/TwitterIcon.png" alt="Twitter" />
+        </a>
+        <a href="https://www.facebook.com/Factorio/" target="_blank" class="social-icon">
+            <img src="img/FacebookIcon.jpg" alt="Facebook" />
+        </a>
+        <a href="https://www.reddit.com/r/factorio/" target="_blank" class="social-icon">
+            <img src="img/RedditIcon.jpeg" alt="Reddit" />
+        </a>
+    </div>
+</footer>
 </body>
 </html>

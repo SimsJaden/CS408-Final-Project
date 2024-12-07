@@ -6,89 +6,79 @@
     <title>Contact Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="contact-page">
+    <!-- Header -->
     <header class="header">
         <div class="logo">
-            <span>@</span> Factorio Recipe Calculator
+            Factorio Recipe Calculator
         </div>
         <nav class="navbar">
-            <a href="Main.html">Home</a>
-            <a href="Recipe.html">Your Recipes</a>
-            <a href="Trending.html">Common Recipes</a>
-            <a href="RateCalculation.html">Rate Calculator</a>
-            <a href="Author.html">Authors</a>
-            <a href="Contact.html" class="active">Contact</a>
+            <a href="Main.html" class="active">Home</a>
+            <a href="RecipeCalculation.html">Rate Calculator</a>
+            <a href="Contact.html">Contact</a>
         </nav>
         <div class="social-icons">
-            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
-            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
-            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
-            <a href="#"><img src="youtube-icon.png" alt="YouTube"></a>
+            <a href="#"><img src="img/TwitterIcon.png" alt="Twitter"></a>
+            <a href="#"><img src="img/FacebookIcon.jpg" alt="Facebook"></a>
+            <a href="#"><img src="img/RedditIcon.jpeg" alt="Reddit"></a>
         </div>
     </header>
 
     <main class="main-content">
-        <h1>Contact</h1>
-        <div class="contact-options">
-            <div class="option">
-                <h3>Questions?</h3>
-                <p>Integer vitae faucibus erat. Meacenas ac interdum lorem, nec blandit lectus.</p>
-                <button class="btn">Visit FAQ</button>
-            </div>
-            <div class="option">
-                <h3>Tutorials</h3>
-                <p>Integer vitae faucibus erat. Meacenas ac interdum lorem, nec blandit lectus.</p>
-                <button class="btn">Visit Tutorials</button>
-            </div>
-            <div class="option">
-                <h3>Ask the Community</h3>
-                <p>Integer vitae faucibus erat. Meacenas ac interdum lorem, nec blandit lectus.</p>
-                <button class="btn">Join the Discord</button>
-            </div>
+        <div class="contact-heading-panel">
+            <h1>Contact Us</h1>
         </div>
+        <!-- Contact Options Section -->
+        <div class="contact-options-panels">
+            <div class="panel contact-option">
+              <h3>Questions?</h3>
+              <p>Have some burning questions you need answered? Check out some of the most commonly answered questions here!</p>
+              <a href="https://www.factorio.com/support/faq" class="btn">Visit FAQ</a>
+            </div>
+            <div class="panel contact-option">
+              <h3>Tutorials</h3>
+              <p>Find some of the best tips and tricks for making your next Mega Factory!</p>
+              <a href="https://www.factorio.com/game/videos" class="btn">Visit Tutorials</a>
+            </div>
+            <div class="panel contact-option">
+              <h3>Ask the Community</h3>
+              <p>Ask the thousands of engineers creating the most efficient and productive factories imaginable!</p>
+              <a href="https://discord.com/invite/factorio" class="btn">Join the Discord</a>
+            </div>
+          </div>
 
+        <!-- Send Us a Message Section -->
+    <div class="panel">
         <form class="contact-form">
             <h2>Send us a message</h2>
             <input type="text" placeholder="Full Name" required>
             <input type="email" placeholder="Email" required>
             <input type="tel" placeholder="Phone number (optional)">
             <textarea placeholder="Type your message here" required></textarea>
-            <button class="btn">Send</button>
+            <button class="small-green-btn">Send</button>
         </form>
-
-        <div class="contact-info">
-            <div>
-                <h4>Editorial Office</h4>
-                <p>0321 East Parkway<br>San Francisco, CA 93021<br>Monday - Friday<br>8AM-5PM CST</p>
-                <p>1-312-123-3213</p>
-            </div>
-            <div>
-                <h4>Shop Customer Service</h4>
-                <p>02 Oak Tree Avenue<br>Austin, TX 31021<br>Monday - Friday<br>8AM-5PM CST</p>
-                <p>1-273-123-1223</p>
-            </div>
-        </div>
+    </div>
     </main>
 
-    <footer class="footer">
-        <div class="footer-left">
-            <span>Factorio Recipe Calculator</span>
-            <p>Donec ac nisi nisi. Vestibulum tincidunt luctus.</p>
-            <p>&copy; 2024 Factorio Recipe Calculator. All rights reserved.</p>
-        </div>
-        <div class="footer-tags">
-            <h4>Tags</h4>
-            <ul>
-                <li>Blueprints</li>
-            </ul>
-        </div>
-        <div class="footer-social">
-            <h4>Social</h4>
-            <a href="#">Twitter</a>
-            <a href="#">Facebook</a>
-            <a href="#">Instagram</a>
-            <a href="#">YouTube</a>
-        </div>
-    </footer>
+    <!-- Footer -->
+<footer class="footer">
+    <div class="footer-left">
+        <span>Factorio Recipe Calculator</span>
+        <p>Custom Recipe Website Created By Jaden Sims.</p>
+        <p>&copy; 2024 Factorio Recipe Calculator. All rights reserved.</p>
+    </div>
+    <div class="footer-social">
+        <h4>Social</h4>
+        <a href="https://x.com/factoriogame" target="_blank" class="social-icon">
+            <img src="img/TwitterIcon.png" alt="Twitter" />
+        </a>
+        <a href="https://www.facebook.com/Factorio/" target="_blank" class="social-icon">
+            <img src="img/FacebookIcon.jpg" alt="Facebook" />
+        </a>
+        <a href="https://www.reddit.com/r/factorio/" target="_blank" class="social-icon">
+            <img src="img/RedditIcon.jpeg" alt="Reddit" />
+        </a>
+    </div>
+</footer>
 </body>
 </html>
